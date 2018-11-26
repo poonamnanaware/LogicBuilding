@@ -1,0 +1,26 @@
+﻿Build started 30/10/2018 11:43:09 PM.
+     1>Project "C:\Users\Admin\Desktop\LB\Array_OOP_Application\Array_OOP_Application\Array_OOP_Application.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Array_OOP_Application.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Third_Largest.cpp
+         Third_Largest.cpp
+     1>c:\users\admin\desktop\lb\array_oop_application\array_oop_application\third_largest.cpp(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>c:\users\admin\desktop\lb\array_oop_application\array_oop_application\third_largest.cpp(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(304) : see declaration of 'scanf'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Desktop\LB\Array_OOP_Application\Debug\Array_OOP_Application.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Array_OOP_Application.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Admin\Desktop\LB\Array_OOP_Application\Debug\Array_OOP_Application.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Desktop\LB\Array_OOP_Application\Debug\Array_OOP_Application.lib" /MACHINE:X86 Debug\Array.obj
+         Debug\Third_Largest.obj
+     1>Array.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Array_OOP_Application.vcxproj -> C:\Users\Admin\Desktop\LB\Array_OOP_Application\Debug\Array_OOP_Application.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Admin\Desktop\LB\Array_OOP_Application\Debug\Array_OOP_Application.exe;#1" /manifest Debug\Array_OOP_Application.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Array_OOP_Application.unsuccessfulbuild".
+         Touching "Debug\Array_OOP_Application.lastbuildstate".
+     1>Done Building Project "C:\Users\Admin\Desktop\LB\Array_OOP_Application\Array_OOP_Application\Array_OOP_Application.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.41
